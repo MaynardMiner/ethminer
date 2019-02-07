@@ -135,7 +135,6 @@ private:
 
     CLSettings m_settings;
 
-    uint32_t m_zero = 0;
     uint32_t m_one = 1;
     uint32_t m_zerox3[3] = {0, 0, 0};
     uint64_t m_current_target = 0ULL;
