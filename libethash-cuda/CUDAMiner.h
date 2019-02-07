@@ -71,7 +71,7 @@ private:
 
     void compileProgPoWKernel(uint32_t _seed, uint32_t _dagelms) override;
     bool loadProgPoWKernel(uint32_t _seed) override;
-    void unloadProgPoWKernel();
+    void unloadProgPoWKernel() override;
 
     bool m_progpow_kernel_loaded = false;
     
