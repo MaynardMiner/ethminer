@@ -36,7 +36,7 @@ if(OPENCL)
 if(BINKERN)
    file(GLOB BINARY_KERNELS "../libethash-cl/kernels/bin/*.bin")
    file(COPY ${BINARY_KERNELS} DESTINATION "${CMAKE_CURRENT_BINARY_DIR}/kernels" )
-   install(FILES ${BINARY_KERNELS} DESTINATION "${CMAKE_INSTALL_BINDIR}/kernels")
+   install(FILES ${BINARY_KERNELS} DESTINATION ${CMAKE_INSTALL_BINDIR}/kernels)
 endif()
 endif()
 
